@@ -24,7 +24,7 @@ class Home extends React.PureComponent {
     render(){
         return(
             
-                <div className="row" class="m-auto">
+                <div className="row" className="m-auto">
                  <div className="col-md-8">
                 <MyMap 
                 markers={this.state.markers}
